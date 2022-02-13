@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+header,footer {
+    border: 5px solid red;
+    height: 100px;
+    clear: both;
+}
+
+section {
+    height: 300px;
+    width: 33.3333%;
+    border: 5px solid red;
+    float: left;
+}
+
+@media screen and (max-width: 760px) {
+    section {
+        background: green;
+    }
+}
+
+@media screen and (min-width:761px) and (max-width:1200px) {
+    section {
+        background: orange;
+    }
+}
+
+@media screen and (min-width:1201px) {
+    header {
+        height: 400px;
+        background: purple;
+    }
+}
